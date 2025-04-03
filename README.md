@@ -27,7 +27,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/vallegrandecito.git
+   git clone https://github.com/victorcuaresma/vallegrandecito.git
    ```
 2. Abre el archivo `index.html` en tu navegador favorito.
 3. Explora las funciones del asistente virtual:
