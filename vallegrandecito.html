@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asistente Virtual - VALLEGRANDECITO</title>
+  <style>
+    /* Estilo general */
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Barra de navegación */
+    nav {
+      width: 100%;
+      background-color: #2196F3;
+      padding: 10px 0;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Encabezado */
+    header {
+      margin-top: 60px; /* Espacio para la barra de navegación */
+      text-align: center;
+      padding: 20px;
+      background-color: #2196F3;
+      color: #fff;
+      width: 100%;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.4rem;
+      margin: 10px 0 0;
+    }
+
+    /* Contenedor principal */
+    .main-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    /* Contenedor del iframe */
+    .iframe-container {
+      width: 100%;
+      height: 800px; /* Más espacio para el asistente */
+      border: none;
+    }
+
+    /* Sección de descripción */
+    .description {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1200px;
+      text-align: center;
+    }
+    .description h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .description p {
+      font-size: 1.2rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* Botones interactivos */
+    .buttons {
+      margin: 20px auto;
+      text-align: center;
+    }
+    .buttons a {
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #2196F3;
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .buttons a:hover {
+      background-color: #1769aa;
+    }
+
+    /* Pie de página */
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+      color: #666;
+      background-color: #f4f4f9;
+      width: 100%;
+    }
+    footer a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Créditos */
+    .credits {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#url-asistente">🔗 Asistente con URLs</a></li>
+      <li><a href="#pdf-asistente">📄 Asistente con PDFs</a></li>
+      <li><a href="#descripcion">❓ Descripción</a></li>
+      <li><a href="#contacto">📧 Contacto</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>🤖 Asistente Virtual VALLEGRANDECITO</h1>
+    <p>Interactúa con el asistente desarrollado con inteligencia artificial.</p>
+  </header>
+  <section id="url-asistente" class="main-container">
+    <h2>🔗 Asistente con URL</h2>
+    <iframe class="iframe-container" src="https://bot.writesonic.com/share/bot/55909fb1-aeea-442c-84ed-e1fd3da3943a" title="Asistente Virtual con URLs"></iframe>
+  </section>
+  <section id="pdf-asistente" class="main-container">
+    <h2>📄 Asistente con PDF</h2>
+    <iframe class="iframe-container" src="https://bot.writesonic.com/share/bot/56788cf8-edcd-4e89-83a7-befd01bb5f22" title="Asistente Virtual con PDFs"></iframe>
+  </section>
+  <section id="descripcion" class="description">
+    <h2>❓ ¿Qué es el Asistente VALLEGRANDECITO?</h2>
+    <p>
+      El asistente virtual VALLEGRANDECITO utiliza inteligencia artificial (AI) para responder preguntas basadas en documentos PDF y URLs conectados. 
+      Es una herramienta moderna diseñada para facilitar el acceso a información educativa y técnica de manera rápida y eficiente.
+    </p>
+  </section>
+  <div class="buttons">
+    <a href="#url-asistente">🔗 Ir al Asistente con URLs</a>
+    <a href="#pdf-asistente">📄 Ir al Asistente con PDFs</a>
+    <a href="#contacto">📧 Contáctanos</a>
+  </div>
+  <footer id="contacto">
+    <h2>📧 Contacto</h2>
+    <p>Para más información, envía un correo a: <strong>victor.cuaresma@vallegrande.edu.pe</strong></p>
+  </footer>
+  <div class="credits">
+    <p><strong>Créditos:</strong> Team 01 - Victor Cuaresma / Ronaldinho Ccencho</p>
+  </div>
+</body>
+</html>
